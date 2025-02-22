@@ -17,4 +17,9 @@ class HomeController extends Controller {
         var_dump($args);
     }
 
+    public function fimdi() : void{
+        //aparecer imagem 
+        $this->render('fimdi');
+    }
+
 }
